@@ -1,0 +1,57 @@
+
+<!doctype html>
+<html>
+
+<head>
+    <title>Horizontal Bar Chart</title>
+
+    <style>
+        canvas {
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+        }
+
+        .dock-top {
+            top: 30px;
+            right: 35px;
+            position: absolute;
+        }
+
+        .mat-button {
+            text-decoration: none;
+            background-color: #1976D2;
+            text-align: center;
+            letter-spacing: .5px;
+            font-size: 12px;
+            outline: 0;
+            border: none;
+            border-radius: 2px;
+            display: inline-block;
+            height: 30px;
+            line-height: 30px;
+            padding: 0 10px;
+            text-transform: uppercase;
+            vertical-align: middle;
+            -webkit-tap-highlight-color: transparent;
+            color: white;
+            font-weight: 800;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container" style="width: 75%;">
+        <canvas id="canvas"></canvas>
+    </div>
+
+    <div class="dock-top">
+        <a class="mat-button" id="reset-stat" href="#">Reset All</a>
+    </div>
+
+    <script src="js/Chart.bundle.js"></script>
+    <script src="js/shared.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

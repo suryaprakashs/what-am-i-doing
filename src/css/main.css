@@ -1,0 +1,87 @@
+body {
+    width: 200px;
+    height: 250px;
+    background: #1976D2;
+    color: white;
+    font-family: 'Segoe UI';
+    margin: 0px;
+}
+
+.blue-700 {
+    background: #1976D2;
+}
+
+.purple-deep {
+    background: #673AB7;
+}
+
+.text-center {
+    text-align: center;
+}
+
+div.details {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 13px;
+}
+
+header.details {
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: auto;
+    padding: 0;
+    width: 80%;
+}
+
+.dock-bottom {
+    bottom: 3px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.mat-button {
+    text-decoration: none;
+    color: #fff;
+    background-color: white;
+    text-align: center;
+    letter-spacing: .5px;
+    font-size: 12px;
+    outline: 0;
+    border: none;
+    border-radius: 2px;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    -webkit-tap-highlight-color: transparent;
+    color: #2962FF;
+    font-weight: 800;
+}
+
+.hit {
+    margin-left: 10px;
+    width: 15%;
+    display: inline-block;
+}
+
+.site {
+    overflow: hidden;
+    max-width: 80%;
+    float: right;
+    text-overflow: ellipsis;
+    text-align: left;
+    display: inline;
+    width: 80%;
+}
